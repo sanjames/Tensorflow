@@ -1,24 +1,27 @@
 # Tensorflow
 
-Some of the code I tried after installing Tensorflow in Anaconda
+This repository has some of the code I tried after installing Tensorflow in Anaconda. 
+
+Python version 3.6.2
+Tensorflow version 1.4.0
 
 <b>Installation of Tensorflow within Anaconda</b>
 
 First, I tried my installation as follows and it failed while invoking <i>"import tensorflow as tf"</i> with the error message No module found.
 
-#Create tensorflow environment in Conda for python 3.5
+<b>Create tensorflow environment in Conda for python 3.5</b>
 conda create -n tensorflow python=3.5
 
-#Activate the environment tensorflow
+<b>Activate the environment tensorflow</b>
 activate tensorflow
 
-#After activating Tensorflow environment
+<b>After activating Tensorflow environment</b>
 pip install --ignore-installed --upgrade tensorflow 
 
-#To check all the enviroments:
+<b>To check all the enviroments:</b>
 conda info --envs
 
-#Invoke Python
+<b>Invoke Python</b>
 $ python
 
 import tensorflow as tf
